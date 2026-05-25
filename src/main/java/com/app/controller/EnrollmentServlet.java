@@ -15,7 +15,7 @@ import java.io.IOException;
 import java.sql.SQLException;
 import java.util.List;
 
-@WebServlet("/enrollmentServlet")
+@WebServlet("/enrollments")
 public class EnrollmentServlet extends HttpServlet {
 
     private final EnrollmentDAO enrollmentDAO = new EnrollmentDAO();

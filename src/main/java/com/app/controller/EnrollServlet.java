@@ -15,7 +15,7 @@ import jakarta.servlet.http.HttpSession;
 import java.io.IOException;
 import java.sql.SQLException;
 
-@WebServlet("/enrollSevlet")
+@WebServlet("/enroll")
 public class EnrollServlet extends HttpServlet {
 
     private final CoursesDAO courseDAO = new CoursesDAO();

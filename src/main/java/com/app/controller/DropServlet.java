@@ -13,7 +13,7 @@ import jakarta.servlet.http.HttpSession;
 import java.io.IOException;
 import java.sql.SQLException;
 
-@WebServlet("/dropServlet")
+@WebServlet("/drop")
 public class DropServlet extends HttpServlet {
 
     private final EnrollmentDAO enrollmentDAO = new EnrollmentDAO();

@@ -13,7 +13,7 @@ import jakarta.servlet.http.HttpSession;
 import java.io.IOException;
 import java.sql.SQLException;
 
-@WebServlet("/loginServlet")
+@WebServlet("/login")
 public class LoginServlet extends HttpServlet {
 
     private final StudentDAO studentDAO = new StudentDAO();

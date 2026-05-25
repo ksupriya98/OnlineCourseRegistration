@@ -19,7 +19,7 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-@WebServlet("/coursesServlet")
+@WebServlet("/courses")
 public class CoursesServlet extends HttpServlet {
 
     private final CoursesDAO courseDAO = new CoursesDAO();
@@ -33,7 +33,7 @@ public class CoursesServlet extends HttpServlet {
         Student student = (Student) session.getAttribute(SessionConstants.STUDENT_SESSION);
 
         if (student == null) {
-            response.sendRedirect("login.jsp");
+            response.sendRedirect(request.getContextPath() + "/login");
             return;
         }
 
