@@ -6,8 +6,6 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: #f0f2f5;
-    color: #333;
     line-height: 1.6;
 }
 
@@ -19,8 +17,6 @@ body {
 
 /* Navbar */
 .navbar {
-    background: #1a5276;
-    color: #fff;
     padding: 1rem 2rem;
     display: flex;
     justify-content: space-between;
@@ -39,7 +35,6 @@ body {
 }
 
 .nav-links a {
-    color: #fff;
     text-decoration: none;
     font-size: 0.95rem;
 }
@@ -55,13 +50,11 @@ body {
 }
 
 .btn-logout {
-    background: rgba(255, 255, 255, 0.15);
     padding: 0.4rem 0.8rem;
     border-radius: 4px;
 }
 
 .btn-logout:hover {
-    background: rgba(255, 255, 255, 0.25);
     text-decoration: none !important;
 }
 
@@ -69,20 +62,16 @@ body {
 .hero {
     text-align: center;
     padding: 4rem 1rem;
-    background: #fff;
     border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
     margin-top: 2rem;
 }
 
 .hero h1 {
     font-size: 2.2rem;
-    color: #1a5276;
     margin-bottom: 0.5rem;
 }
 
 .hero p {
-    color: #666;
     margin-bottom: 2rem;
 }
 
@@ -100,14 +89,11 @@ body {
 }
 
 .feature-card {
-    background: #fff;
     padding: 1.5rem;
     border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 }
 
 .feature-card h3 {
-    color: #1a5276;
     margin-bottom: 0.5rem;
 }
 
@@ -115,15 +101,12 @@ body {
 .form-card {
     max-width: 420px;
     margin: 3rem auto;
-    background: #fff;
     padding: 2rem;
     border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 }
 
 .form-card h2 {
     text-align: center;
-    color: #1a5276;
     margin-bottom: 1.5rem;
 }
 
@@ -141,15 +124,13 @@ body {
 .form-group input {
     width: 100%;
     padding: 0.6rem 0.8rem;
-    border: 1px solid #ccc;
+    border: 1px solid;
     border-radius: 4px;
     font-size: 0.95rem;
 }
 
 .form-group input:focus {
     outline: none;
-    border-color: #1a5276;
-    box-shadow: 0 0 0 2px rgba(26, 82, 118, 0.15);
 }
 
 .form-footer {
@@ -159,7 +140,6 @@ body {
 }
 
 .form-footer a {
-    color: #1a5276;
     font-weight: 500;
 }
 
@@ -167,7 +147,7 @@ body {
 .btn {
     display: inline-block;
     padding: 0.6rem 1.2rem;
-    border: none;
+    border: 1px solid;
     border-radius: 4px;
     font-size: 0.95rem;
     cursor: pointer;
@@ -175,38 +155,15 @@ body {
     text-align: center;
 }
 
-.btn-primary {
-    background: #1a5276;
-    color: #fff;
-}
-
-.btn-primary:hover {
-    background: #154360;
-}
-
-.btn-secondary {
-    background: #fff;
-    color: #1a5276;
-    border: 1px solid #1a5276;
-}
-
-.btn-secondary:hover {
-    background: #eaf2f8;
-}
-
-.btn-danger {
-    background: #c0392b;
-    color: #fff;
-}
-
+.btn-primary:hover,
+.btn-secondary:hover,
 .btn-danger:hover {
-    background: #a93226;
+    opacity: 0.85;
 }
 
 .btn-disabled {
-    background: #bdc3c7;
-    color: #fff;
     cursor: not-allowed;
+    opacity: 0.6;
 }
 
 .btn-block {
@@ -224,18 +181,7 @@ body {
     border-radius: 4px;
     margin-bottom: 1rem;
     font-size: 0.9rem;
-}
-
-.alert-success {
-    background: #d5f5e3;
-    color: #1e8449;
-    border: 1px solid #a9dfbf;
-}
-
-.alert-error {
-    background: #fadbd8;
-    color: #922b21;
-    border: 1px solid #f1948a;
+    border: 1px solid;
 }
 
 /* Course grid */
@@ -247,21 +193,17 @@ body {
 }
 
 .course-card {
-    background: #fff;
     padding: 1.5rem;
     border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
     display: flex;
     flex-direction: column;
 }
 
 .course-card h3 {
-    color: #1a5276;
     margin-bottom: 0.5rem;
 }
 
 .course-card p {
-    color: #666;
     font-size: 0.9rem;
     flex: 1;
     margin-bottom: 1rem;
@@ -272,7 +214,6 @@ body {
     justify-content: space-between;
     align-items: center;
     font-size: 0.85rem;
-    color: #888;
     margin-bottom: 1rem;
 }
 
@@ -281,21 +222,15 @@ body {
     border-radius: 3px;
     font-size: 0.75rem;
     font-weight: 600;
-}
-
-.badge-full {
-    background: #fadbd8;
-    color: #922b21;
+    border: 1px solid;
 }
 
 /* Data table */
 .data-table {
     width: 100%;
     border-collapse: collapse;
-    background: #fff;
     border-radius: 8px;
     overflow: hidden;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
     margin-top: 1.5rem;
 }
 
@@ -303,12 +238,10 @@ body {
 .data-table td {
     padding: 0.8rem 1rem;
     text-align: left;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid;
 }
 
 .data-table th {
-    background: #1a5276;
-    color: #fff;
     font-weight: 500;
 }
 
@@ -318,14 +251,5 @@ body {
 
 .empty-state {
     text-align: center;
-    color: #888;
     padding: 2rem;
-}
-
-.empty-state a {
-    color: #1a5276;
-}
-
-h2 {
-    color: #1a5276;
 }
